@@ -11,7 +11,12 @@ int main(void)
     // Increment operators
     b = 3;
     a = ++b;    // b is now 4, a is also 4
+
+    printf("a=%d,b=%d\n",a,b);
+
     a = b++;    // a is 4, b is now 5, 
+
+    printf("a=%d,b=%d",a,b);
     
     // Decrement operators (reset a back to 3)
     b = 3;
